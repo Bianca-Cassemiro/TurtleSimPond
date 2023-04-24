@@ -20,3 +20,7 @@
   
   Para conseguir testar o projeto, foi preciso abrir alguns terminais e utilizar o talker, o listner, o comando para inicializar o nodo e por fim rodar o script donatelo.py :)
   
+  
+  Link para o video mostrando o funcionamento: https://drive.google.com/file/d/10vYIRANHpp3QIPO2lHv9-i_icKuHITe9/view?usp=sharing
+  
+  
