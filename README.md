@@ -1,4 +1,5 @@
 # Como foi feito
+Olá Mestre Kame, dê uma olhadinha em como minha atividade foi feita:
 
 1) Primeiramente realizei a instalação de todos os programas necessários para o setup do ambiente Linux, como WSL, Ubuntu e RO2.
 
@@ -16,10 +17,10 @@
   
   Criei uma função que irá controlar qual função será utilizada no momento e em qual momento
   
-  Criei as funções serão irão controlar a angulação e direção de movimento do turtle
+  Criei as funções que irão controlar a angulação e  a direção de movimento do turtle, para isso utilizei o Node e o Twist. A classe node é utilizada para realizar a movimentação da tartaruga e a função Twist é usada para girar a tartaruga em torno do seu próprio eixo, não só isso como também a velocidade. 
   
-  Para conseguir testar o projeto, foi preciso abrir alguns terminais e utilizar o talker, o listner, o comando para inicializar o nodo e por fim rodar o script donatelo.py :)
-  
+  Para conseguir testar o projeto, foi preciso abrir alguns terminais e utilizar cada um respectivamente para: o publisher que irá publicar as mensagens para outro nó por meio do Ros2, um comando para inicializar o nó do gráfico da tartaruga e por fim rodar o script donatelo.py :)
+  Todas essas interações são publicadas no tópico cmd/vel.
   
   Link para o video mostrando o funcionamento: https://drive.google.com/file/d/10vYIRANHpp3QIPO2lHv9-i_icKuHITe9/view?usp=sharing
   
